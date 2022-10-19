@@ -1,0 +1,21 @@
+{
+  "name": "images-to-pdf",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Alanimdeo",
+  "repository": "https://github.com/alanimdeo/images-to-pdf",
+  "license": "MIT",
+  "scripts": {
+    "convert": "node dist/index.js"
+  },
+  "dependencies": {
+    "mime": "^3.0.0",
+    "pdfkit": "^0.13.0",
+    "yargs": "^17.6.0"
+  },
+  "devDependencies": {
+    "@types/mime": "^3.0.1",
+    "@types/pdfkit": "^0.12.7",
+    "@types/yargs": "^17.0.13"
+  }
+}
